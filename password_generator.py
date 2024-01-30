@@ -34,5 +34,5 @@ while(1):
         loop = input("\nPress enter to regenerate the password (or)\nenter change to change the length (or)\ntype exit to close => ")
         if(loop != ''):
             break
-    if(loop != "change".lower()):
+    if(loop.lower() != "change"):
         break
